@@ -3,6 +3,7 @@ public class App {
         Problem1 pb1 = new Problem1();
         pb1.solve();
 
-        
+        Problem2 pb2 = new Problem2();
+        pb2.solve();
     }
 }
