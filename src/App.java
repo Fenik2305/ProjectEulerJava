@@ -5,5 +5,10 @@ public class App {
 
         Problem2 pb2 = new Problem2();
         pb2.solve();
+
+        Problem3 pb3 = new Problem3();
+        pb3.solve();
+
+        
     }
 }
