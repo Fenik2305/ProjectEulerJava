@@ -24,5 +24,3 @@ public class Problem3 {
         System.out.println(dividers.get(dividers.size() - 1));
     }
 }
-
-

@@ -9,6 +9,7 @@ public class App {
         Problem3 pb3 = new Problem3();
         pb3.solve();
 
-        
+        Problem4 pb4 = new Problem4();
+        pb4.solve();
     }
 }
