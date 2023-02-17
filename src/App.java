@@ -14,5 +14,8 @@ public class App {
 
         Problem5 pb5 = new Problem5();
         pb5.solve();
+
+        Problem6 pb6 = new Problem6();
+        pb6.solve();
     }
 }
