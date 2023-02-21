@@ -7,7 +7,7 @@ public class Problem4 {
         return result;
     }
 
-    public boolean isPalindrome(int number) {
+    public static boolean isPalindrome(int number) {
         String str_number = new String();
         str_number = String.valueOf(number);
 
@@ -18,7 +18,7 @@ public class Problem4 {
         return false;
     }
 
-    public void solve() {
+    public static void solve() {
         int result = Integer.MIN_VALUE;
 
         for (int i = 100; i < 999; i++) {

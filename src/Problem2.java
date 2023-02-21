@@ -1,5 +1,5 @@
 public class Problem2 {
-    public void solve() {
+    public static void solve() {
         int result = 0;
         int next_number;
         

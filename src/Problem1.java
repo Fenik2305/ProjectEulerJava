@@ -1,5 +1,5 @@
 public class Problem1 {
-    public void solve() {
+    public static void solve() {
         int result = 0;
 
         for (int i = 0; i < 1000; i++) {

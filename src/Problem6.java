@@ -1,5 +1,5 @@
 public class Problem6 {
-    public void solve() {
+    public static void solve() {
         int n = 100;
 
         int sqrt_of_sum = (n * (n + 1) / 2) * (n * (n + 1) / 2);

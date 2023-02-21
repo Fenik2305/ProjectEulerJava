@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 
 public class Problem3 {
-    public boolean isPrime(long num) {
+    public static boolean isPrime(long num) {
         for (int i = 2; i < (int)Math.sqrt(num) + 1; i++) {
             if (num % i == 0) {return false;}
         }
         return true;
     }
 
-    public void solve() {
+    public static void solve() {
         long n = 600_851_475_143L;
         int prime_limit = (int)Math.sqrt(n) + 1;
 

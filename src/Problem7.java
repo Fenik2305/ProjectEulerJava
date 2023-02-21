@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 
 public class Problem7 {
-    public boolean isPrime(int num, ArrayList<Integer> primes) {
+    public static boolean isPrime(int num, ArrayList<Integer> primes) {
         for (int prime: primes) {
             if (num % prime == 0) { return false;}
         }
         return true;
     }
     
-    public void solve() {
+    public static void solve() {
         int n = 10_001;
         int iterator = 3;
 
