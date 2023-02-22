@@ -9,5 +9,7 @@ public class App {
         Problem7.solve();
         Problem8.solve();
         Problem9.solve();
+        Problem10.solve();
+        
     }
 }
